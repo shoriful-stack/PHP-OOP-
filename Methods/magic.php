@@ -1,15 +1,15 @@
 <?php 
 class Parents {
-    private $name;
+    // private $name;
 
-    private $age;
-    private $callName;
+    // private $age;
+    // private $callName;
 
-    function __construct($name="", $age="", $callName= ""){
-        $this->name = $name;
-        $this->age = $age;
-        $this->callName = $callName;
-    }
+    // function __construct($name, $age, $callName){
+    //     $this->name = $name;
+    //     $this->age = $age;
+    //     $this->callName = $callName;
+    // }
 
     // usage of magic method
 
@@ -41,7 +41,9 @@ class Parents {
     // }
 }
 
-$Baba = new Parents("Jamal", 45, "Babai");
+$Baba = new Parents();
 // echo $Baba->getCallName();
 $Baba-> name = "Kamal";
-echo $Baba->name;
+$Baba-> age = 45;
+echo $Baba->name. "\n";
+echo $Baba-> age;
