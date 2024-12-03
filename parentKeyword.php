@@ -1,6 +1,6 @@
 <?php 
 
-// usage of parent keyword(child class can request for parents class behave)
+// usage of parent keyword(child class can request for parents class behave(also constructor))
 class Father {
     public $num1 = 10;
     public $num2 = 20;
